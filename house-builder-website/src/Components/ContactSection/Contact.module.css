@@ -1,0 +1,175 @@
+.contactContainer {
+  width: 100%;
+  margin: 130px 0 30px;
+}
+.innerContactContainer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-self: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.leftSection {
+  width: 45%;
+  padding: 10px;
+}
+.leftSection h3 {
+  font: 700 1.9rem sans-serif;
+  color: #0000cd;
+  margin-bottom: 20px;
+}
+.contactLeftSection ul {
+  list-style-type: none;
+}
+.contactLeftSection ul li {
+  margin-top: 20px;
+  font: 600 1rem sans-serif;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.contactLeftSection ul li a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: #260567;
+}
+.contactLeftSection p {
+  margin-top: 30px;
+  font: 500 1rem sans-serif;
+  color: #555;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.socialLinks li a {
+  background: white;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+.socialLinks li a:hover {
+  background: midnightblue;
+  color: white;
+}
+
+.rightSection {
+  width: 40%;
+  padding: 10px;
+  background: #878787;
+  border-radius: 6px;
+}
+
+.rightSection h3 {
+  font: 700 1.9rem sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.rightSection div{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.rightSection div label{
+    font: 500 1rem sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.rightSection div input{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 0 8px;
+    font: 500 1.1rem sans-serif;
+}
+.rightSection div textarea{
+    width: 100%;
+    resize: vertical;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font: 500 1.1rem sans-serif;
+}
+.rightSection button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    font: 500 1rem sans-serif;
+    border-radius: 6px;
+    border: none;
+    background: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.rightSection button:hover{
+    background: #323232;
+    color: white;
+}
+
+
+@media screen and (max-width: 767px) {
+  .leftSection {
+    width: 95%;
+    padding: 10px;
+}
+.contactLeftSection ul li {
+    margin-top: 20px;
+    font: 600 0.8rem sans-serif;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.socialLinks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 20px;
+  }
+  .rightSection {
+    width: 98%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .leftSection {
+    width: 95%;
+    padding: 10px;
+}
+.contactLeftSection ul li {
+    margin-top: 20px;
+    font: 600 0.8rem sans-serif;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.socialLinks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 20px;
+  }
+  .rightSection {
+    width: 98%;
+  }
+}

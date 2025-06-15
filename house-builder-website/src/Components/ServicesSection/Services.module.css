@@ -1,0 +1,71 @@
+.servicesSection {
+  width: 100%;
+  margin: 130px 0 30px;
+}
+.servicesContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.servicesTitle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.servicesTitle .ChevronsRight {
+  color: brown;
+  font-size: 2.8rem;
+}
+.servicesTitle p {
+  font: 600 1.4rem sans-serif;
+  color: #333;
+}
+.servicesContainer .serviceNote {
+  font: 700 1.8rem sans-serif;
+  margin-bottom: 30px;
+  max-width: 400px;
+  color: #0000cd;
+}
+.servicesCardList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.servicesCardItem {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 400px;
+  border: 1px solid #6b696929;
+  transition: 0.3s ease-in-out;
+}
+.servicesCardItem h3 {
+  margin-top: 20px;
+  font: 500 1.1rem Arial;
+  color: #333;
+}
+.servicesCardItem .ServiceCardIcon {
+  color: #0000cd;
+  transition: 0.3s ease-in-out;
+}
+.servicesCardItem:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 10px #00000042;
+  background: midnightblue;
+}
+.servicesCardItem:hover h3 {
+  color: #fcfc66;
+}
+.servicesCardItem:hover .ServiceCardIcon {
+  font-size: 1rem;
+  background: whitesmoke;
+  color: #008e0c;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
